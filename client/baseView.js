@@ -24,9 +24,9 @@ module.exports = function (view) {
           m('title', getTitle(vnode)),
           m('meta[charset=utf-8]'),
           m('script[src=/index.js]')
-        ])
-      ]),
-      m('body', view(vnode))
+        ]),
+        m('body', view(vnode))
+      ])
     ]
   }
 }
